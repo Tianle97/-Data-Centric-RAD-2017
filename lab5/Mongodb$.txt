@@ -1,0 +1,17 @@
+(>) 大于 - $gt
+(<) 小于 - $lt
+(>=) 大于等于 - $gte
+(<= ) 小于等于 - $lte
+
+
+
+$ne ----------- not equal  !=
+
+$eq  --------  equal  =
+$gt -------- greater than  >
+
+$gte --------- gt equal  >=
+
+$lt -------- less than  <
+
+$lte --------- lt equal  <=

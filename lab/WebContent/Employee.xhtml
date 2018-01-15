@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:h="http://xmlns.jcp.org/jsf/html"
+  xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+  xmlns:f="http://xmlns.jcp.org/jsf/core">
+  
+  <h:head>
+    <title>Employee Form</title>
+  </h:head>
+  
+  <h:body>
+  <h:form>
+  	<h3><b>Employee Details</b></h3>
+    <br></br>
+    Name: <h:inputText value="#{name}" readonly="#{facesContext.currentPhaseId.ordinal eq 6}" p:placeholder="John Smith"/>
+    <br></br>
+    <br></br>
+    Title: <h:inputText value="#{title}" p:placeholder="Enter Title"/>
+    <br></br>
+    <h:commandButton value="OK" action="update.xhtml"/>
+    </h:form>
+  </h:body>
+</html>
